@@ -109,3 +109,94 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
  ### Autres prérequis identifiés 
 - 💻 **PC sous Linux / WSL** – utilisé pour construire et déployer l’image OpenWrt modifiée.
 - 📶 **Connexion Internet** – requise pour l’installation initiale des paquets.
+
+  ## 1. **Recherche et exploration des possibilités**
+  
+  - **Ressources utilisées** :
+  - [Shark Jack de Hak5](https://www.hak5.org/sharkjack/)
+  - [GitLab de JabberJaw](https://gitlab.com/jabberjaw-project)
+  - [Blog Samy Link sur JabberJaw](https://samy.link/blog/jabberjaw-convert-your-router-in-portable-network-attack-dev)
+
+### Analyse des solutions existantes
+
+**Flipper Zero :**
+- Fonctionnalités clés : Multi-outil portable (RFID/NFC, radio 433/868MHz, infrarouge, Bluetooth LE, GPIO)
+- Points forts : Compact, batterie intégrée, interface intuitive avec écran
+- Limitations : Puissance limitée, Wi-Fi via module externe uniquement
+
+**Shark Jack (Hak5) :**
+- Fonctionnalités clés : Capture réseau automatisée, déploiement rapide (plug-and-play)
+- Points forts : Automatisation d'attaques, stockage intégré, indicateurs LED
+- Limitations : Fonctionnalités centrées sur l'Ethernet uniquement
+
+**JabberJaw :**
+- Concept : Conversion de routeurs en plateformes d'attaque réseau portables
+- Avantages : Utilisation de matériel existant, personnalisable, économique
+
+### Composants validés
+
+**Routeur/Plateforme de base :**
+- **GL.iNet GL-MT300N-V2 (Mango)**
+  ![image](https://github.com/user-attachments/assets/d273a34d-5c2c-4d40-aaa7-115ea8371979)
+  
+  - Compatible OpenWrt (natif)
+  - Processeur : MediaTek MT7628NN 580MHz
+  - RAM : 128 Mo
+  - Stockage : 16 Mo Flash
+  - Coût approximatif : 25-30€
+  - Avantages : Format compact, alimentation USB, port Ethernet
+
+**Alimentation mobile :**
+- Batterie USB externe (PowerBank)
+- Câble micro-USB pour connexion
+
+**Accessoires optionnels :**
+- Clé USB pour extension de stockage
+
+**Environnement de développement :**
+- PC sous Linux/WSL pour compiler et déployer l'image OpenWrt
+- Connexion Internet pour l'installation des paquets
+
+**Budget estimatif total : 50-70€** (hors PC de développement)
+
+### Vecteurs d'attaque potentiels
+
+**Attaques Wi-Fi :**
+- **Déauthentification Wi-Fi** : Déconnexion forcée de clients
+  - *Faisabilité embarquée* : Élevée
+  - *Cadre légal* : Autorisé uniquement sur réseaux possédés/autorisés
+- **Capture de handshakes WPA/WPA2**
+  - *Faisabilité embarquée* : Moyenne
+  - *Cadre légal* : Légal en passif, autorisation requise pour déchiffrement
+- **Evil Twin / Rogue AP**
+  - *Faisabilité embarquée* : Moyenne
+  - *Cadre légal* : Nécessite consentement des utilisateurs
+
+**Attaques filaires :**
+- **Capture automatisée de données réseau** (style Shark Jack)
+  - *Faisabilité embarquée* : Élevée
+  - *Cadre légal* : Légal sur réseaux autorisés uniquement
+
+**Autres vecteurs :**
+- **Reconnaissance passive** : Analyse des réseaux environnants
+  - *Faisabilité embarquée* : Élevée
+  - *Cadre légal* : Légal en mode non-intrusif
+
+### Considérations juridiques
+
+1. **Cadre d'utilisation légitime :**
+   - Tests avec autorisation au préalable
+   - Audits sur infrastructure personnelle ou autorisé
+   - Recherche en environnement contrôlé
+
+### Dossier d'achat pour Ynov
+
+### Liste de matériel
+
+| Composant | Quantité | Prix unitaire | Total |
+|-----------|----------|---------------|-------|
+| Routeur GL.iNet GL-MT300N-V2 (Mango) | 1 | 30€ | 30€ |
+| Batterie externe USB 5000mAh | 1 | 20€ | 20€ |
+| Câble micro-USB | 1 | 5€ | 5€ |
+| Clé USB 32GB (optionnelle) | 1 | 15€ | 15€ |
+| **TOTAL** | | | **70€** |
