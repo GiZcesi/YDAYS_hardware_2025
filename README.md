@@ -20,7 +20,7 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 - **Tâches** :
   - Étudier les solutions existantes (Flipper Zero, Shark Jack) pour en extraire les fonctionnalités clés.
   - Identifier les composants nécessaires : routeurs OpenWrt, modules Wi-Fi, Bluetooth, alimentation, etc.
-  - Sélectionner et valider 3 modèles de routeurs selon leur compatibilité, coût et disponibilité.
+  - Sélectionner et valider un modèle de routeur selon sa compatibilité, coût et disponibilité.
   - Préparer un dossier d’achat à soumettre à Ynov.
   - Recherche de vecteurs d’attaque : DoS, injection, sniffing passif, etc., en tenant compte de leur faisabilité embarquée et de leur cadre légal.
 - **Livrables attendus** :
@@ -86,21 +86,6 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 - **Amélioration continue** : Bilan à chaque étape (REX) pour ajuster la démarche et renforcer la qualité finale de la solution.
 
 ---
-
-## 🧰 Matériel utilisé
-
-- 🛜 **Routeur GL-MT300N-V2 (Mango)**.
-
-  ![image](https://github.com/user-attachments/assets/d273a34d-5c2c-4d40-aaa7-115ea8371979)
-  
-- 🔋 **Batterie USB externe** – pour une alimentation autonome.
-- 🔌 **Câble micro-USB** – pour connecter la batterie au routeur.
-- 💻 **PC sous Linux / WSL** – utilisé pour construire et déployer l’image OpenWrt modifiée.
-- 📶 **Connexion Internet** – requise pour l’installation initiale des paquets.
-- 📎 **Accessoires optionnels** :
-  - Adaptateur Ethernet USB – pour une connexion filaire directe.
-  - Clé USB – pour étendre le stockage si besoin.
- 
   
 
 ## 1. **Recherche et exploration des possibilités**
@@ -110,3 +95,17 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
   - [GitLab de JabberJaw](https://gitlab.com/jabberjaw-project)
   - [Blog Samy Link sur JabberJaw](https://samy.link/blog/jabberjaw-convert-your-router-in-portable-network-attack-dev)
  
+### Matériel identifié et soumis à validation pour achat
+
+- 🛜 **Routeur GL-MT300N-V2 (Mango)**.
+
+  ![image](https://github.com/user-attachments/assets/d273a34d-5c2c-4d40-aaa7-115ea8371979)
+  
+- 🔋 **Batterie USB externe** – pour une alimentation autonome.
+- 🔌 **Câble micro-USB** – pour connecter la batterie au routeur.
+- 📎 **Accessoires optionnels** :
+  - Clé USB – pour étendre le stockage si besoin.
+
+ ### Autres prérequis identifiés 
+- 💻 **PC sous Linux / WSL** – utilisé pour construire et déployer l’image OpenWrt modifiée.
+- 📶 **Connexion Internet** – requise pour l’installation initiale des paquets.
