@@ -189,7 +189,7 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
   - Python 3.x
   - Module `subprocess` pour l'interaction avec les outils système
 
-**Voir `Script Scanner_wifi.py` dans le rep**
+**Voir Script `scanner_wifi.py` dans le rep**
 
 ### B. Payload 2: Découverte d'hôtes réseau
 
@@ -204,7 +204,7 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 - Modules `scapy` ou `arping` (à installer sur OpenWrt)
 - Utilitaires réseau natifs `arp-scan` ou `fping`
 
-**Voir `Script discover.py` dans le rep**
+**Voir Script `discover.py` dans le rep**
 
 ### C. Payload 3: Test de vulnérabilités basiques
 
@@ -219,7 +219,7 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 - Modules `socket` et `requests`
 - Outils natifs `nmap` (version légère)
 
-**Voir `Detections.py` dans le rep**
+**Voir Script `vuln.py` dans le rep**
 
 ### D. Stratégie de déploiement sur le GL-MT300N-V2
 
@@ -232,13 +232,13 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 ```
 /root/
 └── payloads/
-    ├── wifi_scanner.py
-    ├── host_discovery.py
-    ├── vuln_scanner.py
+    ├── scanner_wifi.py
+    ├── discover.py
+    ├── vuln.py
     ├── launcher.py
     └── results/
-        ├── wifi_results.json
-        ├── hosts_results.json
+        ├── Scanner_wifi_results.json
+        ├── discover_results.json
         └── vuln_results.json
 ```
 
