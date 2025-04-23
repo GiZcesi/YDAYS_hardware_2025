@@ -1,6 +1,6 @@
 # 🦈 Projet Hardware : Transformer un routeur en outil d’attaque réseau portable
 
-![alt text](![image](https://github.com/user-attachments/assets/145487d2-7dc9-49e3-a6b6-6f0cb9f41772)
+![alt text](![image](https://user-content.gitlab-static.net/00af98be5d0229e332549694217ee15548934d79/68747470733a2f2f692e6962622e636f2f5143786d546a572f6a61626265726a61772e706e67)
 )
 
 ## 🎯 Présentation 
