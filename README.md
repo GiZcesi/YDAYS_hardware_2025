@@ -176,25 +176,36 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 | Clé USB 32GB (optionnelle) | 1 | 15€ | 15€ |
 | **TOTAL** | | | **70€** |
 
+
+---
+
+
 ## 2. **Développement des payloads**
 
-### A. Présentation des payloads
+### A. Payload 1: Scanner Wi-Fi
 
-**Objectifs techniques :**
+**Fonctionnalités:**
+  - Détection des réseaux Wi-Fi environnants (SSID)
+  - Analyse de la force du signal (RSSI)
+  - Identification des réseaux ouverts vs sécurisés
+  - Classification des types de chiffrement (WEP, WPA, WPA2, WPA3)
+    
+**Dépendances:**
 
-Développer des scripts d'analyse réseau légers et modulaires
-Optimiser les performances pour un fonctionnement sur matériel embarqué limité
-Garantir un fonctionnement autonome avec un minimum de dépendances
-Assurer la compatibilité avec l'environnement OpenWrt
+``iw / iwlist (outils natifs OpenWrt)``
+``Python 3.x``
+``Module subprocess pour l'interaction avec les outils système``
 
-### B. Description des payloads
+**Voir Script Scanner_wifi.py dans le rep**
 
-**Payload 1: Scanner Wi-Fi**
-Fonctionnalités:
+### B. Payload 1: Scanner Wi-Fi
 
-Détection des réseaux Wi-Fi environnants (SSID)
-Analyse de la force du signal (RSSI)
-Identification des réseaux ouverts vs sécurisés
-Classification des types de chiffrement (WEP, WPA, WPA2, WPA3)
+**Fonctionnalités:**
+  - Détection des réseaux Wi-Fi environnants (SSID)
+  - Analyse de la force du signal (RSSI)
+  - Identification des réseaux ouverts vs sécurisés
+  - Classification des types de chiffrement (WEP, WPA, WPA2, WPA3)
+
+
 
 **Voir Script Scanner_wifi.py dans le rep**
