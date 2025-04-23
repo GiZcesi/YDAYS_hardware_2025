@@ -100,5 +100,13 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 - 📎 **Accessoires optionnels** :
   - Adaptateur Ethernet USB – pour une connexion filaire directe.
   - Clé USB – pour étendre le stockage si besoin.
-
+ 
   
+
+## 1. **Recherche et exploration des possibilités**
+
+- **Ressources utilisées** :
+  - [Shark Jack de Hak5](https://www.hak5.org/sharkjack/)
+  - [GitLab de JabberJaw](https://gitlab.com/jabberjaw-project)
+  - [Blog Samy Link sur JabberJaw](https://samy.link/blog/jabberjaw-convert-your-router-in-portable-network-attack-dev)
+ 
