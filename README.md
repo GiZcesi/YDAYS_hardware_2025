@@ -28,8 +28,6 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
   - Synthèse des recherches techniques et juridiques.
 - **Échéance prévue** : Fin 2024.
 
----
-
 ### 2. **Développement des payloads**
 
 - **Objectif principal** : Créer des scripts / payloads d’attaque simples et modulaires pour la reconnaissance réseau et l’analyse de vulnérabilités.
@@ -45,8 +43,6 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
   - Résultats de tests.
 - **Échéance prévue** : Payloads prêts pour janvier 2025.
 
----
-
 ### 3. **Prototypage et intégration**
 
 - **Objectif principal** : Assembler le prototype matériel et y intégrer un firmware allégé basé sur JabberJaw.
@@ -58,8 +54,6 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
   - Prototype physique.
   - Documentation technique.
 - **Échéance prévue** : Prototype fonctionnel pour mars 2025 (3 semaines d’intégration prévues).
-
----
 
 ### 4. **Proof of Concept (POC)**
 
