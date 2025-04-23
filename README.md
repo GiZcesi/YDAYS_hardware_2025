@@ -189,23 +189,80 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
   - Analyse de la force du signal (RSSI)
   - Identification des réseaux ouverts vs sécurisés
   - Classification des types de chiffrement (WEP, WPA, WPA2, WPA3)
-    
+
 **Dépendances:**
+  - `iw` / `iwlist` (outils natifs OpenWrt)
+  - Python 3.x
+  - Module `subprocess` pour l'interaction avec les outils système
 
-``iw / iwlist (outils natifs OpenWrt)``
-``Python 3.x``
-``Module subprocess pour l'interaction avec les outils système``
+**Voir `Script Scanner_wifi.py` dans le rep**
 
-**Voir Script Scanner_wifi.py dans le rep**
 
-### B. Payload 1: Scanner Wi-Fi
+# Développement des payloads pour le projet de sécurité embarquée
 
+## 1. Présentation des payloads
+
+### Vue d'ensemble
+Ce document présente le plan de développement de trois payloads Python destinés à l'audit de sécurité réseau. Ces scripts sont conçus pour être déployés sur le routeur GL-MT300N-V2 sous OpenWrt dans le cadre du projet de sécurité embarquée.
+
+### Objectifs techniques
+- Développer des scripts d'analyse réseau légers et modulaires
+- Optimiser les performances pour un fonctionnement sur matériel embarqué limité
+- Garantir un fonctionnement autonome avec un minimum de dépendances
+- Assurer la compatibilité avec l'environnement OpenWrt
+
+## 2. Description des payloads
+
+### Payload 1: Scanner Wi-Fi
 **Fonctionnalités:**
-  - Détection des réseaux Wi-Fi environnants (SSID)
-  - Analyse de la force du signal (RSSI)
-  - Identification des réseaux ouverts vs sécurisés
-  - Classification des types de chiffrement (WEP, WPA, WPA2, WPA3)
+- Détection des réseaux Wi-Fi environnants (SSID)
+- Analyse de la force du signal (RSSI)
+- Identification des réseaux ouverts vs sécurisés
+- Classification des types de chiffrement (WEP, WPA, WPA2, WPA3)
+
+**Dépendances:**
+- `iw` / `iwlist` (outils natifs OpenWrt)
+- Python 3.x
+- Module `subprocess` pour l'interaction avec les outils système
 
 
+### Payload 2: Découverte d'hôtes réseau
+**Fonctionnalités:**
+- Scan ARP du réseau local
+- Identification des hôtes actifs
+- Résolution des adresses MAC
+- Détection des types d'appareils courants
 
-**Voir Script Scanner_wifi.py dans le rep**
+**Dépendances:**
+- Python 3.x
+- Modules `scapy` ou `arping` (à installer sur OpenWrt)
+- Utilitaires réseau natifs comme `arp-scan` ou `fping`
+
+**Exemple de code:**
+
+## 3. Plan d'intégration et d'automatisation
+
+### Stratégie de déploiement sur le GL-MT300N-V2
+
+**Prérequis OpenWrt:**
+- Installation d'OpenWrt custom ou firmware GL.iNet basé sur OpenWrt
+- Installation des paquets Python : `python3`, `python3-pip`
+- Installation des dépendances : `iwlist`, `arp-scan`, `arping`, etc.
+
+**Structure des fichiers:**
+```
+/root/
+└── payloads/
+    ├── wifi_scanner.py
+    ├── host_discovery.py
+    ├── vuln_scanner.py
+    ├── launcher.py
+    └── results/
+        ├── wifi_results.json
+        ├── hosts_results.json
+        └── vuln_results.json
+```
+
+**Script d'automatisation (launcher.py):**
+```python
+
