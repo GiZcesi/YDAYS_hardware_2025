@@ -86,3 +86,15 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 - **Amélioration continue** : Bilan à chaque étape (REX) pour ajuster la démarche et renforcer la qualité finale de la solution.
 
 ---
+
+## Matériel utilisé
+
+- 🛜 Routeur **GL-MT300N-V2** (aussi appelé *Mango*)
+
+![image](https://github.com/user-attachments/assets/d273a34d-5c2c-4d40-aaa7-115ea8371979)
+
+- 🔋 **Batterie USB externe** (pour l'alimentation portable)
+- 🔌 Câble micro-USB pour l’alimentation
+- 💻 Un PC sous Linux (ou WSL/macOS) pour construire l’image
+- 📶 Connexion Internet pour l’installation initiale
+- 📎 **Accessoires optionnels** : adaptateur Ethernet USB, clé USB pour plus de stockage, etc.
