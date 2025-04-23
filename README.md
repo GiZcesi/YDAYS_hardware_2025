@@ -94,7 +94,7 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
   - [GitLab de JabberJaw](https://gitlab.com/jabberjaw-project)
   - [Blog Samy Link sur JabberJaw](https://samy.link/blog/jabberjaw-convert-your-router-in-portable-network-attack-dev)
 
-### Analyse des solutions existantes
+### A. Analyse des solutions existantes
 
 **Flipper Zero :**
 - Fonctionnalités clés : Multi-outil portable (RFID/NFC, radio 433/868MHz, infrarouge, Bluetooth LE, GPIO)
@@ -110,7 +110,7 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 - Concept : Conversion de routeurs en plateformes d'attaque réseau portables
 - Avantages : Utilisation de matériel existant, personnalisable, économique
 
-### Composants validés
+### B. Composants validés
 
 **Routeur/Plateforme de base :**
 - **GL.iNet GL-MT300N-V2 (Mango)**
@@ -136,7 +136,7 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 
 **Budget estimatif total : 50-70€** (hors PC de développement)
 
-### Vecteurs d'attaque potentiels
+### C. Vecteurs d'attaque potentiels
 
 **Attaques Wi-Fi :**
 - **Déauthentification Wi-Fi** : Déconnexion forcée de clients
@@ -159,14 +159,14 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
   - *Faisabilité embarquée* : Élevée
   - *Cadre légal* : Légal en mode non-intrusif
 
-### Considérations juridiques
+### D. Considérations juridiques
 
 **Cadre d'utilisation légitime :**
    - Tests avec autorisation au préalable
    - Audits sur infrastructure personnelle ou autorisé
    - Recherche en environnement contrôlé
 
-### Dossier d'achat / Liste de matériel pour Ynov
+### E. Dossier d'achat / Liste de matériel pour Ynov
 
 | Composant | Quantité | Prix unitaire | Total |
 |-----------|----------|---------------|-------|
