@@ -86,31 +86,8 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 - **Amélioration continue** : Bilan à chaque étape (REX) pour ajuster la démarche et renforcer la qualité finale de la solution.
 
 ---
-  
 
 ## 1. **Recherche et exploration des possibilités**
-
-- **Ressources utilisées** :
-  - [Shark Jack de Hak5](https://www.hak5.org/sharkjack/)
-  - [GitLab de JabberJaw](https://gitlab.com/jabberjaw-project)
-  - [Blog Samy Link sur JabberJaw](https://samy.link/blog/jabberjaw-convert-your-router-in-portable-network-attack-dev)
- 
-### Matériel identifié et soumis à validation pour achat
-
-- 🛜 **Routeur GL-MT300N-V2 (Mango)**.
-
-  ![image](https://github.com/user-attachments/assets/d273a34d-5c2c-4d40-aaa7-115ea8371979)
-  
-- 🔋 **Batterie USB externe** – pour une alimentation autonome.
-- 🔌 **Câble micro-USB** – pour connecter la batterie au routeur.
-- 📎 **Accessoires optionnels** :
-  - Clé USB – pour étendre le stockage si besoin.
-
- ### Autres prérequis identifiés 
-- 💻 **PC sous Linux / WSL** – utilisé pour construire et déployer l’image OpenWrt modifiée.
-- 📶 **Connexion Internet** – requise pour l’installation initiale des paquets.
-
-  ## 1. **Recherche et exploration des possibilités**
   
   - **Ressources utilisées** :
   - [Shark Jack de Hak5](https://www.hak5.org/sharkjack/)
@@ -184,14 +161,12 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 
 ### Considérations juridiques
 
-1. **Cadre d'utilisation légitime :**
+**Cadre d'utilisation légitime :**
    - Tests avec autorisation au préalable
    - Audits sur infrastructure personnelle ou autorisé
    - Recherche en environnement contrôlé
 
-### Dossier d'achat pour Ynov
-
-### Liste de matériel
+### Dossier d'achat / Liste de matériel pour Ynov
 
 | Composant | Quantité | Prix unitaire | Total |
 |-----------|----------|---------------|-------|
