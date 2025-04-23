@@ -221,9 +221,9 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 
 **Voir Script `vuln.py` dans le rep**
 
-### D. Stratégie de déploiement sur le GL-MT300N-V2
+### D. Stratégie de déploiement sous JabberJaw
 
-**Prérequis OpenWrt:**
+**Prérequis :**
 - Installation d'OpenWrt custom jabberjaw
 - Installation des paquets Python : `python3`, `python3-pip`
 - Installation des dépendances : `iwlist`, `arp-scan`, `arping`, etc.
