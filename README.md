@@ -87,14 +87,18 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 
 ---
 
-## Matériel utilisé
+## 🧰 Matériel utilisé
 
-- 🛜 Routeur **GL-MT300N-V2** (aussi appelé *Mango*)
+- 🛜 **Routeur GL-MT300N-V2 (Mango)**.
 
-![image](https://github.com/user-attachments/assets/d273a34d-5c2c-4d40-aaa7-115ea8371979)
+  ![image](https://github.com/user-attachments/assets/d273a34d-5c2c-4d40-aaa7-115ea8371979)
+  
+- 🔋 **Batterie USB externe** – pour une alimentation autonome.
+- 🔌 **Câble micro-USB** – pour connecter la batterie au routeur.
+- 💻 **PC sous Linux / WSL** – utilisé pour construire et déployer l’image OpenWrt modifiée.
+- 📶 **Connexion Internet** – requise pour l’installation initiale des paquets.
+- 📎 **Accessoires optionnels** :
+  - Adaptateur Ethernet USB – pour une connexion filaire directe.
+  - Clé USB – pour étendre le stockage si besoin.
 
-- 🔋 **Batterie USB externe** (pour l'alimentation portable)
-- 🔌 Câble micro-USB pour l’alimentation
-- 💻 Un PC sous Linux (ou WSL/macOS) pour construire l’image
-- 📶 Connexion Internet pour l’installation initiale
-- 📎 **Accessoires optionnels** : adaptateur Ethernet USB, clé USB pour plus de stockage, etc.
+  
