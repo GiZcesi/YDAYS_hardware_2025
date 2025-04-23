@@ -212,3 +212,18 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 
 **Voir `Script discover.py` dans le rep**
 
+### C. Payload 3: Test de vulnérabilités basiques
+
+**Fonctionnalités:**
+- Détection de services courants (HTTP, SSH, Telnet, SMB)
+- Analyse des versions de services
+- Tests de vulnérabilités basiques (ports ouverts, authentification défaut)
+- Génération de rapports synthétiques
+
+**Dépendances:**
+- Python 3.x
+- Modules `socket` et `requests`
+- Outils natifs `nmap` (version légère)
+
+**Voir `Detections.py` dans le rep**
+
