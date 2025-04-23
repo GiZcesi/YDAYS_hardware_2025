@@ -6,7 +6,7 @@
 
 Ce projet a pour ambition de concevoir une solution **autonome et facilement transportable**, inspirée d’outils reconnus comme le **Flipper Zero** ou le **Shark Jack** de Hak5. Elle doit permettre l’exécution d’attaques réseau légères à des fins de test de sécurité, dans des environnements variés, de manière simple et efficace.
 
-Pour cela, nous utilisons **JabberJaw**, une réécriture en open-source du firmware Shark Jack, conçue pour transformer n’importe quel routeur compatible OpenWrt en plateforme d’attaque réseau mobile. 
+Pour cela, nous utiliserons **JabberJaw**, une réécriture en open-source du firmware Shark Jack, conçue pour transformer n’importe quel routeur compatible **OpenWrt** en plateforme d’attaque réseau mobile. 
 
 Là où JabberJaw se distingue, c’est qu’il s’agit d’un projet open source déjà développé, ce qui nous évite d’avoir à créer un firmware personnalisé de zéro. Il tire également parti de la connectivité Wi-Fi intégrée du routeur pour simplifier son utilisation : un point d’accès est généré automatiquement et sert de mode de configuration. Quant à l’exécution des payloads, elle se lance automatiquement dès qu’un port Ethernet est connecté à un autre appareil ou réseau.
 
