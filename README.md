@@ -221,3 +221,24 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 
 **Voir `Detections.py` dans le rep**
 
+### D. Stratégie de déploiement sur le GL-MT300N-V2
+
+**Prérequis OpenWrt:**
+- Installation d'OpenWrt custom jabberjaw
+- Installation des paquets Python : `python3`, `python3-pip`
+- Installation des dépendances : `iwlist`, `arp-scan`, `arping`, etc.
+
+**Structure des fichiers:**
+```
+/root/
+└── payloads/
+    ├── wifi_scanner.py
+    ├── host_discovery.py
+    ├── vuln_scanner.py
+    ├── launcher.py
+    └── results/
+        ├── wifi_results.json
+        ├── hosts_results.json
+        └── vuln_results.json
+```
+
