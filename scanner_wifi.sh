@@ -45,9 +45,9 @@ iwinfo $INTERFACE scan | while read -r line; do
         "")
             # Si ligne vide => afficher les infos collectées
             if [ -n "$SSID" ]; then
-                echo "📶 SSID      : $SSID"
-                echo "   🔋 Signal  : $SIGNAL"
-                echo "   🔐 Sécurité : $ENC_TYPE"
+                echo " SSID      : $SSID"
+                echo "  Signal  : $SIGNAL"
+                echo "  Sécurité : $ENC_TYPE"
                 echo ""
             fi
             ;;
