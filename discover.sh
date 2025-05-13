@@ -5,7 +5,7 @@ INTERFACE="br-lan"
 
 # S'assurer que l'interface existe
 if ! ip link show "$INTERFACE" >/dev/null 2>&1; then
-  echo "❌ Interface $INTERFACE introuvable."
+  echo " Interface $INTERFACE introuvable."
   exit 1
 fi
 
@@ -23,8 +23,8 @@ arp-scan --interface="$INTERFACE" --localnet | grep -v "Starting" | grep -v "End
     MAC_ADDR=$(echo "$MAC" | awk '{print $1}')
     DEVICE_TYPE=$(echo "$VENDOR" | cut -d ' ' -f1-3)
 
-    echo "💻 IP        : $IP_ADDR"
-    echo "🔗 MAC       : $MAC_ADDR"
-    echo "🏷️  Type      : $DEVICE_TYPE"
+    echo " IP        : $IP_ADDR"
+    echo " MAC       : $MAC_ADDR"
+    echo "  Type      : $DEVICE_TYPE"
     echo ""
 done
