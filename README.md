@@ -186,10 +186,13 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 
 **Dépendances:**
   - `iw` / `iwlist` (outils natifs OpenWrt)
-  - Python 3.x
-  - Module `subprocess` pour l'interaction avec les outils système
+  - `wireless-tools`
+  - `grep`
+  - `awk`
+  - `sed`
+  - `coreutils`
 
-**Voir Script `scanner_wifi.py` dans le rep**
+**Voir Script `scanner_wifi.sh` dans le rep**
 
 ### B. Payload 2: Découverte d'hôtes réseau
 
