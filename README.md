@@ -203,11 +203,13 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 - Détection des types d'appareils courants
 
 **Dépendances:**
-- Python 3.x
-- Modules `scapy` ou `arping` (à installer sur OpenWrt)
-- Utilitaires réseau natifs `arp-scan` ou `fping`
+- `arp-scan`
+- `coreutils`
+- `grep`
+- `awk`
+- `sed`
 
-**Voir Script `discover.py` dans le rep**
+**Voir Script `discover.sh` dans le rep**
 
 ### C. Payload 3: Test de vulnérabilités basiques
 
