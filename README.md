@@ -248,7 +248,6 @@ Analyse des services sensibles :
 
 **Prérequis :**
 - Installation d'OpenWrt custom jabberjaw
-- Installation des paquets Python : `python3`, `python3-pip`
 - Installation des dépendances : `iwlist`, `arp-scan`, `arping`, etc.
 
 **Structure des fichiers:**
