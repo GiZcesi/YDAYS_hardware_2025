@@ -264,3 +264,25 @@ Analyse des services sensibles :
         └── vuln_results.json
 ```
 
+## 3. **Prototypage et intégration**
+
+Lors de la présentation, je montrerai la maquette physique du prototype, qui permettra de visualiser concrètement l’assemblage compact du dispositif, intégrant le routeur, la batterie et le câblage.
+Malheureusement, il ne sera pas possible de lancer les scripts initialement prévus en raison d’un manque de stockage sur le système. 
+L’autonomie et la stabilité du prototype seront néanmoins satisfaisantes et démontrées.
+
+Des premiers tests auront été réalisés avec succès, mais le groupe aura dû réinitialiser plusieurs fois la maquette à cause de l’installation répétée de programmes trop volumineux.
+Pour résoudre ce problème, trois scripts auront été réécrits en Shell avec des dépendances légères, afin qu’ils puissent être supportés par le système à l’avenir. 
+Par manque de temps, ces scripts n’auront pas encore été intégrés au prototype au moment de la démonstration.
+
+## 4. **Proof of Concept (POC)**
+
+L’objectif principal de cette phase est de démontrer la viabilité de la solution dans un environnement contrôlé, avec une supervision automatisée. 
+Plusieurs tâches étaient prévues, notamment l’automatisation du lancement des payloads au démarrage, l’envoi sécurisé des résultats via webhook (par exemple vers Discord), ainsi que des tests dans différents environnements réseau (Wi-Fi public, LAN restreint). 
+Le suivi de la consommation énergétique et des performances faisait également partie des objectifs.
+
+Cependant, par manque de temps, cette phase n’a pas pu être entièrement réalisée sur un environnement de test dédié. 
+Les éléments prévus, comme l’intégration complète de l’automatisation et la validation dans des contextes variés, seront à approfondir dans une suite éventuelle du projet.
+
+Les livrables attendus pour cette phase – notamment le tableau de logs d’exécution et le dossier de validation du POC – n’ont pas pu être finalisés dans les délais, mais les bases ont été posées pour permettre leur mise en œuvre ultérieure.
+
+---
