@@ -230,19 +230,19 @@ Enfin, en raison des limitations de mémoire propres aux routeurs de voyage ou a
 
 Exemple du rapport fin de script :
 
-`Rapport de scan - Tue May 14 14:00:00 CEST 2025`
+Rapport de scan - Tue May 14 14:00:00 CEST 2025
 
-`192.168.1.10: 22/tcp open  ssh     OpenSSH 7.9
+192.168.1.10: 22/tcp open  ssh     OpenSSH 7.9
 192.168.1.20: 80/tcp open  http    lighttpd 1.4.53
-192.168.1.30: 445/tcp open microsoft-ds Windows 7 Professional 7601`
+192.168.1.30: 445/tcp open microsoft-ds Windows 7 Professional 7601
 
-`Analyse des services sensibles :
+Analyse des services sensibles :
 22/tcp open ssh OpenSSH 7.9
 ⚠ Port SSH ouvert — vérifier les identifiants !
 80/tcp open http lighttpd 1.4.53
 ⚠ Port HTTP ouvert — vérifier les interfaces web non sécurisées !
 445/tcp open microsoft-ds Windows 7 Professional 7601
-⚠ Port SMB ouvert — attention aux partages non protégés !`
+⚠ Port SMB ouvert — attention aux partages non protégés !
 
 ### D. Stratégie de déploiement sous JabberJaw
 
