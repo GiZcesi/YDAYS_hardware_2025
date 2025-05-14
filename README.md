@@ -286,3 +286,18 @@ Les éléments prévus, comme l’intégration complète de l’automatisation e
 Les livrables attendus pour cette phase – notamment le tableau de logs d’exécution et le dossier de validation du POC – n’ont pas pu être finalisés dans les délais, mais les bases ont été posées pour permettre leur mise en œuvre ultérieure.
 
 ---
+
+## CONCLUSION
+
+Ce projet partait d’une idée pertinente et prometteuse, mais il s’est avéré sans doute trop ambitieux au regard des contraintes de temps et de ressources. 
+Le besoin initial a été mal défini (mal scopé), ce qui a entraîné un retard dans le développement ainsi que dans les phases de tests, notamment sur le prototype, les scripts et les automatisations prévues.
+
+Un retard de livraison du matériel en janvier a également impacté le planning. 
+J’ai dû adapter les objectifs et les KPI en début d’année pour les aligner avec la date réelle de réception du matériel. 
+En parallèle, j’ai rencontré plusieurs absences pour raisons personnelles, ce qui, en tant que chef de projet, a fortement ralenti l’avancement global. 
+Les membres B1/B2 du groupe, qui avaient réalisé des tâches importantes sur la fin du projet, n’ont pas pu être présents pour le dernier jour des YDAYS, ce qui a empêché la présentation complète du prototype final.
+
+Malgré cela, je pense que le projet a eu le mérite d’exister, et qu’il représente une base intéressante pour des travaux futurs. 
+Il s’agit finalement d’un dispositif léger, flexible et personnalisable, comparable à un mini-PC sous Linux, pouvant être réutilisé ou réorienté pour d’autres cas d’usage.
+
+Nous ouvrons une porte avec ce premier prototype, et nous espérons qu’un autre groupe pourra reprendre ce matériel pour poursuivre, améliorer, ou même détourner le projet vers une toute autre finalité, en capitalisant sur les fondations posées cette année.
